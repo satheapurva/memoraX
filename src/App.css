@@ -1,0 +1,26 @@
+.messages{
+  flex:1;
+  padding:20px;
+  overflow-y:auto;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.bot{
+  background:#f0f0f0;
+  padding:12px 18px;
+  border-radius:18px;
+  max-width:70%;
+  width:max-content;
+}
+
+.user{
+  background:#3b82f6;
+  color:white;
+  padding:12px 18px;
+  border-radius:18px;
+  max-width:70%;
+  width:max-content;
+  align-self:flex-end;
+}
